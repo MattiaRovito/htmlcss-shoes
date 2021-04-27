@@ -93,3 +93,15 @@ body{
     color: green;
 }
 
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: relative;
+}
+
+
+
+.container:hover .layover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
